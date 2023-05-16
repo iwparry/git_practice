@@ -16,3 +16,8 @@ Below are some commands you will often use when making changes to a repository a
 - `git commit -m "descriptive message"` - records file snapshots permanently (what you make with `git add`) along with a descriptive message of what has been changed
 - `git push`- Uploads all file commits on your local machine to GitHub
 
+### Branches
+Branches are an important part of working with git, allowing you to make changes to your repo without affecting the main branch until ready.
+- `git branch <branch-name>` - creates a new branch (note running this command with the `-d` flag deletes the specified branch)
+- `git checkout <branch-name>` - switches to the specified branch and updates the working directory
+- `git merge <branch>` - combines the specified branch's history into the current branch.
