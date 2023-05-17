@@ -16,9 +16,14 @@ Below are some commands you will often use when making changes to a repository a
 - `git commit -m "descriptive message"` - records file snapshots permanently (what you make with `git add`) along with a descriptive message of what has been changed
 - `git diff` - shows file differences that are not yet staged
 - `git push`- Uploads all file commits on your local machine to GitHub
+- `git log` - Enables you to check your commit history (use `-p` flag to only view the changes introduced in the commit)
 
 ### Branches
 Branches are an important part of working with git, allowing you to make changes to your repo without affecting the main branch until ready.
 - `git branch <branch-name>` - creates a new branch (note running this command with the `-d` flag deletes the specified branch)
 - `git checkout <branch-name>` - switches to the specified branch and updates the working directory (note you can create a branch and immediately switch to it using the `-b` flag)
 - `git merge <branch>` - combines the specified branch's history into the current branch.
+
+### Other commands
+- `git reset` - this command resets an entire branch to its state before running `git add` (if you only want to undo this for a specific file instert `path/filename` as the argument)
+- `git reflog` - if a series of mistakes have been made and the repository is in such a mess, this command shows everything done in the project
