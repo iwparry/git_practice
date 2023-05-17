@@ -1,1 +1,3 @@
 this text file was created in my practise branch
+
+this was written for my second commit for my practise branch, after that I merged with my main branch
